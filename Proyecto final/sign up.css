@@ -3,19 +3,16 @@
 body{
     height: 100vh;
     font-family:'Poppins', sans-serif;
-    background-image: url(./imagenes/1253479.jpg)
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(./imagenes/1253479.jpg)¨
 }
-.login{
+   
+.loginc{
     height: 440px;
     width: 460px;
     display: flex;
     justify-content: center;
-
 }
+
 .loginc{
     width: 100%;
     display: flex;
@@ -24,17 +21,19 @@ body{
     background-color: white;
     border-radius: 20px 20px 20px 20px;
 }
+
 .title{
     font-size: 20px;
     letter-spacing: 0px;
     padding-top: 10px;
     display: flex;
     justify-content: center;
-
 }
+
 .input{
     padding-top: 10px;
 }
+
 .input-n{
     width: 300px;
     height: 20px;
@@ -50,6 +49,7 @@ body{
     padding: 6px 6px 6px 20px;
     box-shadow: 0px 2px 2px rgb(166, 166, 166);
 }
+
 .input-n::placeholder {
     background-image: url(./imagenes/user.png);
     background-repeat: no-repeat;
@@ -57,6 +57,7 @@ body{
     background-position: left center;
     padding-left: 20px;
 }
+
 .input-e{
     width: 300px;
     height: 20px;
@@ -72,6 +73,7 @@ body{
     padding: 6px 6px 6px 20px;
     box-shadow: 0px 2px 2px rgb(166, 166, 166);
 }
+
 .input-e::placeholder {
     background-image: url(./imagenes/correo-electronico-vacio.png);
     background-repeat: no-repeat;
@@ -79,6 +81,7 @@ body{
     background-position: left center;
     padding-left: 20px;
 }
+
 .input-p{
     width: 300px;
     height: 20px;
@@ -94,6 +97,7 @@ body{
     padding: 6px 6px 6px 20px;
     box-shadow: 0px 2px 2px rgb(166, 166, 166);
 }
+
 .input-p::placeholder {
     background-image: url(./imagenes/padlock.png);
     background-repeat: no-repeat;
@@ -101,33 +105,38 @@ body{
     background-position: left center;
     padding-left: 20px;
 }
+
 .boton{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 40px;
 }
+
 .btn{
-        width: 100px;
-        height: 40px;
-        background-color: #ff3d3d;
-        color: rgb(255, 255, 255);
-        font-size: medium;
-        border: 0px;
-        border-radius: 10px;
-        box-shadow: 0px 1px 5px gray;
+   width: 100px;
+   height: 40px;
+   background-color: #ff3d3d;
+   color: rgb(255, 255, 255);
+   font-size: medium;
+   border: 0px;
+   border-radius: 10px;
+   box-shadow: 0px 1px 5px gray;
 }
+
 .write{
     padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .texto{
     margin: 0%;
     font-size: small;
     color: #555;
 }
+
 .account{
     font-size: small;
     text-decoration: none;
