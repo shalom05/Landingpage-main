@@ -3,7 +3,7 @@
 body{
     height: 100vh;
     font-family:'Poppins', sans-serif;
-    background-image: url(./1253479.jpg);
+    background-image: url(./imagenes/1253479.jpg)
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@ body{
     box-shadow: 0px 2px 2px rgb(166, 166, 166);
 }
 .input-n::placeholder {
-    background-image: url(./user.png);
+    background-image: url(./imagenes/user.png);
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: left center;
@@ -73,7 +73,7 @@ body{
     box-shadow: 0px 2px 2px rgb(166, 166, 166);
 }
 .input-e::placeholder {
-    background-image: url(./correo-electronico-vacio.png);
+    background-image: url(./imagenes/correo-electronico-vacio.png);
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: left center;
@@ -95,7 +95,7 @@ body{
     box-shadow: 0px 2px 2px rgb(166, 166, 166);
 }
 .input-p::placeholder {
-    background-image: url(./padlock.png);
+    background-image: url(./imagenes/padlock.png);
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: left center;
