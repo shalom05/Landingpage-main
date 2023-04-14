@@ -146,13 +146,12 @@ a{
   
 .log-in:hover::before {
     width: 100%;
-  }
+}
 
 /* Este es el css del carrusel */
 .carrusel-container { 
     height: 877px;
     background-image: url(./img/background\ image.png);
-    
 }
 
 .movels {
